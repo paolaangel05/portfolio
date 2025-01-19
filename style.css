@@ -5,54 +5,74 @@
 
 body{
     margin:30px 10px 30px;
-    background-color: #0c1a22;
+    background-color: #080820;
     color: white;
 }
 
+.banner{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #3a3c3e;
+}
+
 .cabecalho{
+    height: 60px;
     display:flex;
     justify-content: center;
-    border: 1px solid white;
+    align-items: center;
+    border-bottom: 1px groove #3a3c3e;
+    border-radius: 4px;
     gap: 40px;
+    margin-bottom: 30px;
 }
 
 .titulo{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 500;
-    font-size: 26px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #EDB766;
     padding: 5px;
-    text-align: center;
+    /* text-align: center; */
+}
+
+.titulo_portfolio1{
+    text-align: left;
+    padding: 20px;
 }
 
 .cabecalho__item{
     text-decoration: none; 
     padding:3px;
+    border: 1px groove #EDB766;
+    border-radius: 10px;
+    background-color: #3a3c3e;
 
-}
-
-
-.conteudo{
-    display:flex;
-    flex-direction: column;
-    gap:20px;
-}
-.conteudo__item{
-    display: flex;
-    flex-direction: column;
-    gap:5px;
-    padding: 20px;
-    border: 1px solid white;
-    border-radius: 5px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 500;
-    font-size: 14px;
 }
 
 .cabecalho__item__item1{
     color: #22D4FD;
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding:10px;
+    font-size: 20px;
 }
+
+
+.conteudo{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+.conteudo__item{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    padding: 20px;
+    border: 1px solid #f3ce98c1; 
+    border-radius: 5px; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
 
 .listas{
     display:flex;

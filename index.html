@@ -1,56 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
 
+</head>
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="./index.html">
-                Home </a>
-            <a class="cabecalho__menu__link" href="./about.html">
-                Sobre mim </a>
-        </nav>
+        <a class="cabecalho__item cabecalho__item__item1" href="./aboutme.html">Sobre mim</a>
+        <a class="cabecalho__item" href="https://www.linkedin.com/in/paolaufsj/"><img src="./assets/images/icons/linkedin.png" alt="Icone do linkedin"></a>
+        <a class="cabecalho__item" href="https://github.com/paolaangel05"><img src="./assets/images/icons/github.png" alt="Icone do GitHub"></a>
     </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível<strong 
-            class="titulo-destaque">com um Front-end de qualidade!
-            </strong></h1>
-            <p class="apresentacao__conteudo__texto">Olá! Sou Joana Santos, desenvolvedora
-            Front-end com especialidade em React, HTML e
-            CSS. Ajudo pequenos negócios e designers a
-            colocarem em prática boas ideias. Vamos
-            conversar?</p>
-            <div class="apresentacao__links">
-                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
-                <a class="apresentacao__links__link" href="https://instagram.com/paolaufsj/">
-                    <img src="./assets/instagram.png" alt="Link do Instagram de Paola">
-                    Instagram
-                </a>
-                <a class="apresentacao__links__link" href="https://github.com/paolaangel05">
-                    <img src="./assets/github.png" alt="Link do Github de Paola">
-                    GitHub
-                </a>
-                
-                <a class="apresentacao__links__link" href="https://twitter.com/paolaang05"> 
-                    <img src="./assets/twitter.png" alt="Link do Twitter de Paola">
-                    Twitter
-                </a>
-                
-            </div>
-        </section>
-        <img src="./assets/Imagem.png" alt="Foto da Joana Santos programando">
-    </main>
-    <footer>
-        <p class="rodape">Desenvolvido por Paola Angélica</p>
-    </footer>
+    
+    <div class="banner">
+        <img src="./assets/images/paola_banner.png" width="100%" alt="banner de paola">
+    </div>
+    
+    <h1 class="titulo titulo_portfolio1"> Confira meu Portfólio:</h1>
+
+    <div class="conteudo">
+        <div class="conteudo__item">
+            <h2 class="titulo">Objetivo</h2>
+            <p>Cientista de Dados com foco em Python e Machine Learning</p>
+        </div>
+
+        <div class="conteudo__item">
+            <h2 class="titulo">Formação acadêmica</h2>
+            <p><strong>Bacharelado em Ciência da Computação</strong> (Universidade Federal de São João del Rei). Conclusão: 2024</p>
+        </div>
+
+        <div class="conteudo__item">
+            <h2 class="titulo">Experiências acadêmicas</h2>
+            <h3>Universidade ferederal de São joão del Rei</h3>
+            <ul class="listas">
+                <li>Monitora acadêmica de Cálculo Diferencial e Integral no curso de Ciência da Computação (09/2022 - 12/2022) e Administração (08/2019 - 12/2019)</li>
+                <li>Monitora acadêmica de Matemática I no curso de Economia (03/2019 - 07/2019)</li>
+            </ul>
+        </div>
+
+        <div class="conteudo__item">
+            <h2 class="titulo">Experiências profissionais</h2>
+            <h3>Auxiliar administrativo  (Leg Serviços Ltda) - Contrato de 2 meses</h3>
+            <ul class="listas">
+                <li>Realizei um projeto de Data Cleaning para dados de fornecedores em um supermercado. Utilizando Python, Pandas e NumPy, criei filtros e realizei Análises Descritivas para otimizar a eficiência operacional.</li>
+            </ul>
+
+            <h3>Freelancer (Fábrica de Isca Artificial) - 2024</h3>
+            <ul class="listas">
+                <li> Desenvolvi uma planilha de gestão de cartões de crédito com VBA, otimizando o tempo de inserção dos dados, facilitando o monitoramento de transações e proporcionando um controle financeiro mais eficaz e estratégico.</li>
+            </ul>
+        </div>
+        
+        <div class="conteudo__item">
+            <h2 class="titulo">Certificados</h2>
+            <ul class="listas">
+                <li><strong>Introduction to Data Science in Python</strong> (Coursera - University of Michigan).Finalizado em 04/2024</li>
+                <li> <strong>Machine learning: Introdução a Sistemas de Recomendação em Python</strong> (Alura). Finalizado em 8/2022</li>
+                <li><strong>Python: Avançando na Orientação a Objetos</strong> (Alura). Finalizado em 02/2022</li>
+                <li><strong>Python: Entendendo a Orientação a Objetos</strong> (Alura). Finalizado em 01/2022</li>
+                <li><strong>SQL com MySQL: Manipule e Consulte Dados</strong> (Alura). Finalizado em 01/2022</li>
+            </ul>
+
+        </div>
+
+        <div class="conteudo__item">
+            <h2 class="titulo">Habilidades</h2>
+            <ul class="listas">
+                <li><strong>Python</strong>: Experiência com bibliotecas de análise de dados e machine learning, incluindo NumPy, Pandas, Matplotlib e Scikit-learn.</li>
+                <li><strong>Machine Learning</strong>: Modelagem preditiva, classificação, regressão e sistemas de recomendação.</li>
+                <li><strong>SQL</strong>: Manipulação e consulta de dados em bancos relacionais com MySQL.</li>
+                <li><strong>Excel e VBA</strong>: Automação de processos e gestão de dados com VBA.</li>
+                <li><strong>Estatística Aplicada</strong>: Análises descritivas, inferência estatística e testes de hipóteses.</li>
+                <li><strong>Resolução de problemas</strong>: Proativo na identificação e solução de desafios com uma abordagem analítica e focada em resultados.</li>
+            </ul>
+        </div>
+
+        <div class="conteudo__item">
+            <h2 class="titulo">Projetos</h2>
+            <p>Em breve...</p>
+        </div>
+    </div>
 </body>
+
+<footer class="rodape">
+    <p style="text-align: center;">©Paola Silva. Todos os direitos reservados.</p>
+
+</footer>
 
 </html>
