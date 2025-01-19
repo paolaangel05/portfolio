@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    margin:30px 10px 30px;
+    /* background-color: #eff4f7; */
+    color: #0c1a22a;
+}
+
+.conteudo{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.conteudo__item{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    padding: 20px;
+    border: 1px solid #0c1a22;
+    border-radius: 5px;
+}
+
+.rodape{
+    padding:10px;
+}
